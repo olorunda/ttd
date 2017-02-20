@@ -1,0 +1,54 @@
+
+/************************************************************
+*                                                           *
+* If you have already installed the                         *
+*                                                           *
+* Stock Manager Advance (Invoice & Inventory System)        *
+*                                                           *
+* then please follow these steps to install POS             *
+*                                                           *
+* Please check the documentation in SMA download file       *
+* Thank you                                                 *
+*                                                           *
+************************************************************/
+
+
+Installation 
+
+1.  Backup all your files and database.
+2.  Upload the files in this folder to your main directory for Stock Manager Advance using cPanel or FTP.
+3.  Open the http://sma-url.com/installpos/index.php
+4.  Step 1: Pre-intall system checklist - If there is any issue with checklist, you will need to fix it first to proceed to next step.
+5.  Step 2: Provide you envato username and Purchase code to validate the purchase.
+6.  If every thing goes smooth, You will be redirect to final page with success message.
+7.  Remove the installpos and updatepos folder before start using the POS Module.
+8.  POS is ready to use, after settings. Please save SMA system settings and POS settings before start using it.
+
+
+Updating from v2.3 to RC3.0.x (Please make suer that the SMA is update to v3 and you are using the same database that was used to installed POS Module 2.3)
+
+1.  Backup all your files and database.
+2.  Upload the files in this folder to your main directory for Stock Manager Advance using cPanel or FTP.
+3.  Open the http://sma-url.com/updatepos/index.php
+4.  Step 1: Pre-intall system checklist - If there is any issue with checklist, you will need to fix it first to proceed to next step.
+5.  Step 2: Provide you envato username and Purchase code to validate the purchase.
+6.  If every thing goes smooth, You will be redirect to final page with success message.
+7.  Remove the updatepos and installpos folder before start using the POS Module.
+8.  POS Module is updated and ready to use again.
+
+
+Updating from RC3.0.x to Latest
+
+1. Backup all your files and database.
+2. Extract the downloaded file.
+3. Copy RC3.0.2.xx/themes and RC3.0.x/app, paste the contents in yourinstallationdirectory/
+
+-- RC3.0.2.23
+The database changes are in files/db_updates/POS_3_0_2_23.sql 
+Please open phpmyadmin, select you database and import files/db_updates/POS_3_0_2_23.sql to update your database. 
+
+-- RC3.0.2.15
+ALTER TABLE `sma_pos_settings` ADD `toggle_brands_slider` VARCHAR(55) NULL;
+
+
+For any help and documentation, please refer to documentation.pdf in the Stock Manager Advance download file.

@@ -1,0 +1,10 @@
+﻿code,name,address,map,phone,email,price_group_id
+ABJ,Abuja Warehouse,<p>Abuja</p>,NULL,8107654663,test@tdafrica.com,1
+ENU,Enugu Warehouse,<p>Enugu</p>,NULL,8107654663,test@tdafrica.com,1
+GIT HOL,GIT Netherlands Warehouse,<p>Netherlands</p>,NULL,8107654663,test@tdafrica.com,1
+GIT MW,GIT Gbagada Warehouse,<p>Gbagada Warehouse</p>,NULL,8107654663,test@tdafrica.com,1
+HOLL,Netherlands Warehouse,<p>Netherlands</p>,NULL,8107654663,test@tdafrica.com,1
+IKJ,Ikeja Warehouse,<p>Ikeja</p>,NULL,8107654663,test@tdafrica.com,1
+MW,Main Warehouse,<p>Gbagada</p>,NULL,8107654663,test@tdafrica.com,1
+PH,PortHarcourt Wrehouse,<p>Portharcourt</p>,NULL,8107654663,test@tdafrica.com,1
+QW,Quarantine Warehouse,<p>Nill</p>,NULL,8107654663,test@tdafrica.com,1
